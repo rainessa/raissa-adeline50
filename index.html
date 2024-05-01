@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>port</title> 
+        <style>
+           nav{
+           background-color: cadetblue;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 35px;
+                border-radius: 20px;
+            }
+            ul{
+                display: flex;
+                gap: 20px;
+                list-style: none;
+                flex-direction:row ;
+
+            }
+            ul li a{
+            text-decoration:none ;
+            box-shadow: 0 0 10px;
+            padding: 7px;
+            border-radius: 10px;
+            animation: rotating-box linear 7s infinite
+
+            }
+            /* .b{
+                background-color: cadetblue;
+                width: 200px;
+                height: 100px;
+                animation: rotating-box linear 7s infinite; 
+                box-shadow: 0px 0px 10px black;
+                border-radius: 20px;
+                 margin-top: 70px;
+                 margin-left: 70px;
+                 padding: 70px;  */
+            
+            .box2{
+                background-color: cadetblue;
+                width: 200px;
+                height: 100px;
+                animation: rotating-box linear 7s infinite; 
+                box-shadow: 0px 0px 10px black;
+                border-radius: 20px;
+                 margin-top: 70px;
+                 margin-left: 70px;
+                 padding: 70px;
+                  
+                 }
+                 .box2:hover{
+                    background-color: pink;
+                transform: scale(1.3) rotate(360deg); 
+                transition: all linear 2s;
+               
+
+                 }
+            
+            .box1{
+                background-color: cadetblue;
+                width: 200px;
+                height: 100px;
+                animation: rotating-box linear 7s infinite;
+                transform: rotate(460deg);
+                box-shadow: 0px 0px 10px black ;
+                border-radius: 20px;
+                 margin-top: 70px;
+                 margin-left: 70px;
+                 padding: 70px;
+            }
+            @keyframes rotating-box{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+        </style>
+    </head>
+    <body bgcolor="grey">
+        <center>
+        <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif ;"> MY PORTIFOLIO WEBSITE</h1>
+    </center>
+        <nav>
+        <div class="logo">logo</div>
+         <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about us.html">about</a> </li>
+            <li><a href="contact.html" >contact</a></li>
+        
+            
+            </div>
+             
+        </div>
+        
+    </nav>
+         </ul>
+         <div class="b"></div>
+         <div class="box2">my name is raissa I'm a student<br>in ESSJT I study SOFTWARE DEVELOPMENT<br>I have adream to build my own website </div>
+         <div class="box1">I have 4months for experience <br>I can make simple website </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <style>
+            .BOX{
+                background-color:cadetblue;
+                width: 200px;
+                height: 100px;
+                animation: rotating-box linear 7s infinite;  
+                box-shadow: 0px 0px 10px black;
+                border-radius: 20px;
+                 margin-top: 70px;
+                 margin-left: 70px;
+                 padding: 70px;
+            }
+            .BOX:hover{
+                background: linear-gradient(grey, pink, darksalmon);
+                transform: scale(1.3) rotate(360deg);
+                transition: all linear 2s;
+
+                }
+                @keyframes rotating-box{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body bgcolor="grey">
+        <h1>welcome to my portfolio</h1>
+
+        <div class="BOX" style="font-family: 'Times New Roman', Times, serif;"> I'm a programmer and developer I have <br> a plan to build many website from knowlge I gained at school <br>this portifolio is contin with who I am and and<br>what I can do</div>
+        <div class="image"><img src="WhatsApp Image 2024-05-01 at 10.34.46_c406f5df.jpg" width="200px"></div>
+    </body>
+</html>
